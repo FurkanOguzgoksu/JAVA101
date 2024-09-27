@@ -16,7 +16,7 @@ public class Main {
         cevre = (alfa==360)? 2*pi*yaricap : ((2*pi*yaricap*alfa/360)+2*yaricap);
         alan = pi*yaricap*yaricap*alfa/360;
 
-        System.out.println("Dairenin cevre: "+cevre);
-        System.out.println("Dairenin alan: "+alan);
+        System.out.println("Dairenin çevresi: "+cevre);
+        System.out.println("Dairenin alanı: "+alan);
     }
 }
